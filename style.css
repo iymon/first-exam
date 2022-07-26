@@ -9,9 +9,11 @@ body {
     font-style: normal;
 }
 
-
-
-
+header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
 
 /* header */
 
@@ -19,18 +21,19 @@ body {
 .header_container {
     width: 1600px;
     height: 150px;
-  
+
     margin: 0 auto;
 
 }
 
 .header_content {
-    justify-content: space-between;
+
     width: 1338px;
     align-items: center;
     margin: 0 auto;
     padding-top: 52px;
     display: flex;
+    justify-content: space-between;
 }
 
 .nav_item {
