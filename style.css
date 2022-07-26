@@ -12,7 +12,9 @@ body {
 header {
     position: sticky;
     top: 0;
+
     background: #fff;
+
 }
 
 /* header */
@@ -61,6 +63,11 @@ header {
     text-decoration: none;
 }
 
+.nav_list_link:hover{
+ border-radius: 5px;
+   box-shadow: 0px 0px 5px 0px #000000;
+}
+
 .btn {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -74,6 +81,12 @@ header {
 
 }
 
+.btn:hover {
+    background: rgb(10, 10, 10);
+    color: #ffffff;
+
+    box-shadow: 0px 0px 5px 0px #000000;
+}
 
 
 
@@ -93,6 +106,7 @@ header {
 
 .main_content {
     display: flex;
+    justify-content: space-between;
 }
 
 .main_text h1 {
@@ -104,9 +118,8 @@ header {
     color: #000000;
 }
 
-.main_text img{
-  
-}
+
+
 .main_text p {
     margin-top: 40px;
     width: 632px;
@@ -132,7 +145,12 @@ header {
     text-decoration: none;
 }
 
+.main_btn:hover {
+    background: #fff;
+    color: #000000;
 
+    box-shadow: 0px 0px 5px 0px #000000;
+}
 
 
 /* section 2 */
@@ -206,6 +224,13 @@ header {
 
 }
 
+.main_btn2:hover {
+    background: #fff;
+    color: #000000;
+
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
 .main_writing_reading {
     display: flex;
     justify-content: space-between;
@@ -266,6 +291,13 @@ header {
     color: #FFFFFF;
 }
 
+.main_btn3:hover {
+    background: #fff;
+    color: #000000;
+
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
 
 /* reading */
 
@@ -315,6 +347,12 @@ header {
     color: #FFFFFF;
 }
 
+.main_btn4:hover {
+    background: #fff;
+    color: #000000;
+
+    box-shadow: 0px 0px 5px 0px #000000;
+}
 
 
 
@@ -370,6 +408,13 @@ header {
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
+}
+
+.main_btn5:hover {
+    background: #fff;
+    color: #000000;
+
+    box-shadow: 0px 0px 5px 0px #000000;
 }
 
 
@@ -447,7 +492,7 @@ header {
 
     width: 1338px;
     margin: 0 auto;
-   
+
 }
 
 .main_Pricing {
@@ -460,24 +505,32 @@ header {
 
 .main_content4 {
     display: flex;
+
+
 }
 
 .main_Pricing_text img {
-    width: 311px;
-    height: 311px;
+    width: 300px;
+    height: 270px;
+}
+
+.main_Pricing_text {
+    padding-left: 40px;
+    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .main_Pricing_text h3 {
+    margin-top: 54px;
     font-weight: 600;
     font-size: 30px;
     line-height: 48px;
-
-
     color: #263238;
 
 }
 
 .main_Pricing_text p {
+    margin-top: 23px;
     width: 418px;
     height: 125px;
     font-weight: 400;
@@ -487,25 +540,133 @@ header {
 }
 
 .main_text_namber {
-
+    margin-top: 59px;
     font-weight: 400;
     font-size: 30px;
     line-height: 45px;
-
-
     color: #263238;
 
 
 }
 
+.per_month {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #8F95A5;
+}
+
+.main_text_namber {
+    width: 240px;
+    height: 45px;
+
+
+    background: #EEEEEE;
+    border-radius: 5px;
+
+}
+
+
+
+/* section 5 */
+
+
+.container5 {
+
+    width: 1338px;
+    margin: 0 auto;
+    margin-bottom: 113px;
+}
+
+.content5 {
+    margin-top: 290px;
+    display: flex;
+}
+
+.main_Contact_Us {
+    margin-left: 111px;
+    margin-top: 20px;
+}
+
+.main_Contact_Us h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+
+
+}
+
+.main_Contact_Us p {
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    margin-bottom: 52px;
+}
+
+
+.main_top_input {
+    width: 450px;
+    height: 68px;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+}
+
+
+
+.main_buttom_top {
+    text-decoration: none;
+    background: #263238;
+    border-radius: 10px;
+    padding: 25px 80px;
+    color: #FFFFFF;
+
+}
+
+.main_buttom_top:hover {
+    background: #fff;
+    color: #000000;
+
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
+
+
+/* footer */
 
 
 
 
 
+.footer_container {
+    width: 1338px;
+    margin: 0 auto;
+
+}
+
+.footer_content {
+    margin-bottom: 50px;
+}
 
 
+.footer_hr {
+    background: #C4C4C4;
+    margin-bottom: 31px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_bottom p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
 
 
-
-
+}
