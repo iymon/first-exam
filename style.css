@@ -63,9 +63,9 @@ header {
     text-decoration: none;
 }
 
-.nav_list_link:hover{
- border-radius: 5px;
-   box-shadow: 0px 0px 5px 0px #000000;
+.nav_list_link:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #000000;
 }
 
 .btn {
@@ -581,11 +581,13 @@ header {
 .content5 {
     margin-top: 290px;
     display: flex;
+    
 }
 
 .main_Contact_Us {
-    margin-left: 111px;
+    margin-left: 145px;
     margin-top: 20px;
+    
 }
 
 .main_Contact_Us h3 {
